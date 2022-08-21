@@ -4,7 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Countdown</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <svg
+        class="wave"
+        viewBox="0 0 1366 133"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M1366 0H0V27.6503C79.0078 49.9323 172.154 69.6349 261.729 85.4662C372.219 104.994 481.981 108.913 592.365 112.854L592.365 112.854L592.366 112.854C635.236 114.385 678.2 115.919 721.337 118.372C749.93 119.998 779.133 122.067 808.302 124.134L808.302 124.134C896.408 130.376 984.192 136.596 1053.85 130.511C1119.23 124.8 1150.1 108.243 1181.04 91.6541C1191.39 86.1002 1201.76 80.5429 1213.42 75.3877C1230.71 67.7491 1241.26 58.8166 1251.75 49.9279C1265.59 38.2065 1279.34 26.5613 1308.34 18.0602C1324.57 13.3029 1344.23 9.33452 1366 5.86685V0Z"
+          fill="#DDDBF2"
+          fill-opacity="0.26"
+        />
+      </svg>
+
+      <div class="container">
+        <div class="count_container">
+          <h1 class="title">Ready to launch in...</h1>
+          <div class="count">
+            <div class="container_days">
+              <span class="label">Days</span>
+              <span class="count_value" id="days">08</span>
+            </div>
+            <div class="container_hours">
+              <span class="label">Hours</span>
+              <span class="count_value" id="hours">12</span>
+            </div>
+            <div class="container_minutes">
+              <span class="label">Minutes</span>
+              <span class="count_value" id="minutes">44</span>
+            </div>
+            <div class="container_seconds">
+              <span class="label">Seconds</span>
+              <span class="count_value" id="seconds">04</span>
+            </div>
+          </div>
+          <p>Sign up to learn more about the release</p>
+          <button class="btn">Subscribe</button>
+        </div>
+
+        <div class="rocket">
+          <img src="./assets/rocket.svg" alt="Illustration of a Rocket" />
+        </div>
+      </div>
+
+      <svg
+        class="wave"
+        viewBox="0 0 1366 229"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M1366 176.569C1347.5 172.74 1329.08 168.973 1310.99 165.273C1278.27 158.581 1246.6 152.104 1217.39 145.862C1110.52 123.024 998.866 110.59 885.94 98.0154C824.929 91.2213 763.545 84.3858 702.342 75.8455C640.836 67.2627 577.857 55.1053 515.316 43.0324C395.552 19.9134 277.395 -2.89553 174.259 0.301001C75.035 3.37627 42.9722 29.5511 10.2842 56.2362L10.2839 56.2366L10.2837 56.2367C6.88785 59.0089 3.4853 61.7866 0 64.5445V229H1366V176.569Z"
+          fill="#DDDBF2"
+          fill-opacity="0.26"
+        />
+      </svg>
+    </main>
+  </body>
 </html>
