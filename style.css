@@ -97,6 +97,7 @@ img {
   font-size: 7.2rem;
   display: flex;
   align-items: center;
+  width: 12rem;
 }
 
 .count_value:not(#seconds)::after {
